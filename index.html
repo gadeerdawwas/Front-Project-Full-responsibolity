@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/normlize.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!--    setting Box         -->
+
+    <div class="setting_box">
+        <div class="toggle-setting">
+            <i class="fa fa-gear"></i>
+        </div>
+
+        <div class="setting_containeer">
+            <div class="option-box">
+                <h4>Color </h4>
+                <ul class="color-list">
+                    <li data-color="#ff9800"></li>
+                    <li data-color="#de0e1f"></li>
+                    <li data-color="#08c7d6"></li>
+                    <li data-color="#23e601"></li>
+                    <li data-color="#ff9800"></li>
+                </ul>
+            </div>
+
+            <div class="option-box">
+                <div class="random-Background">
+                    <h4>Random Background</h4>
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">NO</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show Bullets</h4>
+                <div class="Bullets-option">
+                    <span class="yes active" data-display="show">Show</span>
+                    <span class="no" data-display="hide">Hide</span>
+                </div>
+            </div>
+
+            <button class="reset-option"> reset-option</button>
+        </div>
+    </div>
+    <!--    setting Box         -->
+    <!--   nav  bullets          -->
+
+    <div class="navbullets">
+        <div class="bullet" data-section=".about-us" >
+            <div class="toolTip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".skills" >
+            <div class="toolTip">Our Skills</div>
+
+        </div>
+        <div class="bullet" data-section=".gallery" >
+            <div class="toolTip">Our Gallery </div>
+
+        </div>
+        <div class="bullet" data-section=".timeLine" >
+            <div class="toolTip">TimeLine</div>
+
+        </div>
+        <div class="bullet" data-section=".features" >
+            <div class="toolTip">TimeLine</div>
+
+        </div>
+        <div class="bullet" data-section=".testimoneal" >
+            <div class="toolTip">TimeLine</div>
+
+        </div>
+
+    </div>
+
+    <!--   nav  bullets          -->
+
+
+
+    <!--    landing-page         -->
+
+    <div class="landing-page" id="landing-page">
+        <div class="overlay"> </div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo"> Desgin</div>
+
+                <div class="links-container">
+                    <ul class="lists">
+                        <li>
+                            <a href=""  data-section=".about-us ">About</a>
+                        </li>
+                        <li>
+                            <a href="#" data-section=".skills">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#" data-section=".gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#" data-section=".timeLine">TimeLine</a>
+                        </li>
+                        <li>
+                            <a href="#" data-section=".features">Feature</a>
+                        </li>
+                        <li>
+                            <a href="#" data-section=".testimoneal">Testimoneals</a>
+                        </li>
+                        
+                    </ul>
+                    <button class="taggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="intro-text">
+            <h1> We Are <span>Creating</span> Agency</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tenetur voluptas nisi repudiandae mini</p>
+
+        </div>
+    </div>
+    <!--    landing-page         -->
+
+    <!--    about  us         -->
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iste, aliquam id reprehenderit maxime
+                    illum impedit distinctio delectus ab beatae doloremque libero fugiat? Esse veritatis cupiditate
+                    distinctio voluptas tenetur labore.</p>
+            </div>
+            <div class="imag-box">
+                <img src="./imag/al.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--    about  us         -->
+    <!--   skill         -->
+    <div class="skills">
+        <div class="container">
+            <h2>Our Skill</h2>
+
+            <div class="skill-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-progress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-name">CSS</div>
+                <div class="skill-progress">
+                    <span data-progress="50%"> </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Python</div>
+                <div class="skill-progress">
+                    <span data-progress="90%"> </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Php</div>
+                <div class="skill-progress">
+                    <span data-progress="35%"> </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Node js</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"> </span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-name">javaScript</div>
+                <div class="skill-progress">
+                    <span data-progress="70%"> </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--   skill         -->
+
+    <!--      Gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2> Our Gallery</h2>
+            <div class="image-box">
+                <img src="./imag/web9.jpg" alt="image one">
+                <img src="./imag/web10.jpg" alt="image two">
+                <img src="./imag/web.png" alt="image three">
+                <img src="./imag/web8.jpg" alt="image four">
+                <img src="./imag/web2.jpg" alt="image fifth">
+                <img src="./imag/web3.jpg" alt="image six">
+                <img src="./imag/web4.jpg" alt="image seven">
+                <img src="./imag/web5.jpg" alt="image ">
+                <img src="./imag/web6.jpg" alt="image">
+                <img src="./imag/web7.jpg" alt="image">
+            </div>
+        </div>
+    </div>
+    <!--      Gallery -->
+
+
+    <!-- time line -->
+    <div class="timeLine">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2019</div>
+
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Handing</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui nobis cumque ipsam unde.
+                            Necessitatibus ea exercitationem, vitae ducimus accusamus hic nemo fuga quidem asperiores
+                            distinctio culpa, deleniti libero itaque doloremque.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Handing</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui nobis cumque ipsam unde.
+                            Necessitatibus ea exercitationem, vitae ducimus accusamus hic nemo fuga quidem asperiores
+                            distinctio culpa, deleniti libero itaque doloremque.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="year">2017</div>
+
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Handing</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui nobis cumque ipsam unde.
+                            Necessitatibus ea exercitationem, vitae ducimus accusamus hic nemo fuga quidem asperiores
+                            distinctio culpa, deleniti libero itaque doloremque.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Handing</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui nobis cumque ipsam unde.
+                            Necessitatibus ea exercitationem, vitae ducimus accusamus hic nemo fuga quidem asperiores
+                            distinctio culpa, deleniti libero itaque doloremque.</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- time line -->
+
+    <!--  our feature  -->
+    <div class="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="feature-box">
+                <img src="./imag/f1.png" alt="">
+                <h4>Development</h4>
+                <p>Development Service and Highest Authority Links</p>
+            </div>
+            <div class="feature-box">
+                <img src="./imag/f2.png" alt="">
+                <h4>Development</h4>
+                <p>Development Service and Highest Authority Links</p>
+            </div>
+            <div class="feature-box">
+                <img src="./imag/f3.png" alt="">
+                <h4>Development</h4>
+                <p>Development Service and Highest Authority Links</p>
+            </div>
+            <div class="feature-box">
+                <img src="./imag/f4.jpg" alt="">
+                <h4>Development</h4>
+                <p>Development Service and Highest Authority Links</p>
+            </div>
+            <div class="feature-box">
+                <img src="./imag/f5.jpg" alt="">
+                <h4>Development</h4>
+                <p>Development Service and Highest Authority Links</p>
+            </div>
+            <div class="feature-box">
+                <img src="./imag/f8.png" alt="">
+                <h4>Development</h4>
+                <p>Development Service and Highest Authority Links</p>
+            </div>
+
+
+
+        </div>
+    </div>
+    <!-- <div class="cleaefix"></div> -->
+    <!--  our feature  -->
+
+    <div class="clearfix"></div>
+    <!--         testimonial          -->
+    <div class="testimoneal">
+        <div class="container">
+            <h2>Testimoneals</h2>
+
+            <div class="testimoneal-content">
+                <div class="ts-box">
+                    <div class="personal-info">
+                        <img src="./imag/person3.jpg" alt="">
+                        <h4>Ali Abdaal</h4>
+                        <p>doctor in the U.K.</p>
+                    </div>
+                    <p>Ali Abdaal is a doctor in the U.K. who also makes YouTube videos and podcasts about productivity, academics, and personal development. Ali’s site has a clean, </p>
+                    
+
+                </div>
+                <div class="ts-box">
+                    <div class="personal-info">
+                        <img src="./imag/person2.jpg" alt="">
+                        <h4>Pierre Person </h4>
+                        <p>French politician </p>
+                    </div>
+                    <p>Pierre Person (born 22 January 1989) is a French politician of La République En Marche! (LREM) who was  to the National Assembly on 18 June 2017, representing Paris.</p>
+                  
+
+                </div>
+                <div class="ts-box">
+                    <div class="personal-info">
+                        <img src="./imag/person1.jpg" alt="">
+                        
+                        <h4>Pierre Person </h4>
+                        <p>French politician </p>
+                    </div>
+                    <p>Pierre Person vient d’être élu dans la 6e  de Paris, dans le nord-est de la capitale capitale   dans le nord-est de la capitale – Cécile Duflot était   la   la  députée sortante sortante</p>
+                    
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <!--         testimonial          -->
+
+    <!-- cntact us -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                  <input type="text" placeholder="Enter Your Name" name="username">
+                  <input type="text" placeholder="Enter Your Phone" name="phone">
+                  <input type="email" placeholder="Enter Your Email" name="email">
+                  <input type="text" placeholder="Subject" name="Subject">
+                </div>
+
+                <div class="right">
+                    <textarea name="message" placeholder="message"></textarea>
+                    <input type="submit" value="Send">
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- cntact us -->
+
+
+    <div class="footer"> Gadeer Dawwas</div>
+
+
+
+
+    
+
+
+
+
+</body>
+<script src='./js/main.js'>
+</script>
+
+</html>
